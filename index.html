@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rock Paper Scissors</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Placing the main heading and opening images in our header to organize and keep them at the top of the screen. -->
+  <header>
+    <h1>Rock, Paper, Scissors... SHOOT!</h1>
+    <img src="rock-sprite.png" width="75" alt="Sprite of a small rock, dark gray at the bottom, lighter at the top.">
+    <img src="sheet-of-paper.png" width="45" alt="Sheet of paper, curled at the bottom.">
+    <img src="scissorsalt.png" width="45" alt="Drawn pair of blue scissors">
+  </header>
+
+  <!-- Section to hold all of our text and button items, buttons also are specified with an id to call them in JS. The section also holds the footer at this time to quickly align the content to the center and hold it together. The footer is further modified in CSS. -->
+  <section>
+  <h2>You: <span id="user-choice"></span></h2>
+  <h2>Computer: <span id="computer-choice"></span></h2>
+  <h2>Result: <span id="result"></span></h2>
+
+  <button id="Rock">Rock</button>
+  <button id="Paper">Paper</button>
+  <button id="Scissors">Scissors</button>
+  <footer>LaBronn The Developer</footer>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
